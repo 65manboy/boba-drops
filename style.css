@@ -7,10 +7,16 @@ body {
   background: rgb(163, 7, 7);
   color: rgb(0, 0, 0);
 }
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px; /* Adds space between your heading, image, and paragraphs */
-  padding: 40px; /* Keeps content away from the very edge of the screen */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Priya's dark purple navbar color */
+    padding: 20px;
+}
+
+.nav-links a {
+    color: #5630a9; /* Light purple link text */
+    text-decoration: none; /* Removes the underline from links */
+    margin-left: 20px; /* Adds space between each link */
 }
