@@ -7,10 +7,10 @@ body {
   background: rgb(163, 7, 7);
   color: rgb(0, 0, 0);
 }
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #5d00ff;
-    padding: 20px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2b1055;
+  padding: 1rem 2rem;
 }
