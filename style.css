@@ -4,6 +4,13 @@ img {
 body {
   text-align: center;
   font-family: 'Arial';
-  background: azure;
-  color: purple;
+  background: rgb(163, 7, 7);
+  color: rgb(0, 0, 0);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5d00ff;
+    padding: 20px;
 }
