@@ -7,3 +7,10 @@ body {
   background: rgb(163, 7, 7);
   color: rgb(0, 0, 0);
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px; /* Adds space between your heading, image, and paragraphs */
+  padding: 40px; /* Keeps content away from the very edge of the screen */
+}
