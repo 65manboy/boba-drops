@@ -7,3 +7,10 @@ body {
   background: rgb(163, 7, 7);
   color: rgb(0, 0, 0);
 }
+nav{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9; /* Matches the dark purple background shown in the image */
+    padding: 15px 30px; 
+}
